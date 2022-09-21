@@ -1,0 +1,777 @@
+.row {
+    margin-right: 0;
+  }
+
+.admin{
+    color:#FFFFFF;
+    background-color: #082336;
+
+}
+.adminli{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+html, body { 
+    margin:0;
+    height:auto;
+}
+#bodylogin {
+
+    background-color: #00121E;
+}
+.menuesq{
+    height: 100%
+
+}
+.admin {
+    margin: 30px 15px;
+    text-align: center;
+
+
+}
+@media (min-width: 979px) {
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+      display: block;
+    }
+  }
+.dropdown-item, .dropdown-menu{
+    color:#FFFFFF;
+    background-color: #082336;
+}
+.sair {
+    margin: 30px 15px;
+    text-align: center;
+    position: absolute;
+    top: 850px;
+    left: 30px;
+
+}
+.nav-link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.btnlogin{
+    
+    width:100%;
+    background-color: #165E71;
+}
+
+#telalogin{
+
+width:325px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+box-shadow: 1px -3px 20px #165E71;
+
+}
+
+.lgnbtn {
+    color: #308A9C;
+    background-color: #082336;
+
+}
+
+.containerpagar {
+    position:absolute;
+    top: 50px;
+    left: 40%;
+    background: #EEEEEE;
+    width: 400px;
+    height: 650px;
+    border-radius: 5px;
+}
+
+.bg-cinza{
+    background-color: #EEEEEE;
+}
+
+.inputsclientereceber{
+    position:absolute;
+    top: 620px;
+    left: 140px;
+}
+
+.inputsclienterecebergeral{
+    position:absolute;
+    top: 550px;
+    left: 140px;
+}
+.containerpagartexto {
+    position: absolute;
+    top: 50px;
+    left: 40%;
+    width: 130px;
+    height: 600px;
+}
+
+.inputspagardata {
+    position:absolute;
+    top: 80px;
+    left: 140px;
+    
+}
+
+.inputspagardatatexto {
+    position:absolute;
+    top: 80px;
+    left: 40px; 
+    
+}
+
+.inputspagargrupo {
+    position:absolute;
+    top: 120px;
+    left: 140px;
+}
+
+.inputspagargrupotexto {
+    position:absolute;
+    top: 120px;
+    left: 40px;
+    
+}
+
+
+.inputspagarsubgrupo {
+    position:absolute;
+    top: 160px;
+    left: 140px;
+}
+
+.inputspagarsubgrupotexto {
+    position:absolute;
+    top: 160px;
+    left: 40px;
+    
+}
+.inputspagardatavencimento {
+    position:absolute;
+    top: 200px;
+    left: 140px;
+}
+
+.inputspagardatavencimentotexto {
+    position:absolute;
+    top: 200px;
+    left: 40px;
+    
+}
+
+.inputspagarhistorico {
+    position:absolute;
+    top: 240px;
+    left: 140px;
+}
+.inputspagarhistoricotexto {
+    position:absolute;
+    top: 240px;
+    left: 40px;
+    
+}
+
+.inputspagarhistoricolongo {
+    position:absolute;
+    top: 280px;
+    left: 140px;
+}
+
+.inputspagarhistoricolongotexto {
+    position:absolute;
+    top: 280px;
+    left: 40px;
+   
+}
+.text-input{
+    width:210px;
+  
+}
+
+.historicolongo{
+    width:210px;
+    height: 80px;
+}
+
+.dataegrupos{
+    width:150px;
+    
+}
+
+.grupo-input{
+    width: 150px;
+    background-color: #D0D0D7;
+}
+
+.bg-protexcinza{
+    --bs-bg-opacity: 1;
+    background-color: #D0D0D7;
+  }
+  
+.inputspagarvalor {
+    position:absolute;
+    top: 370px;
+    left: 140px;
+}
+
+.inputspagarvalortexto {
+    position:absolute;
+    top: 370px;
+    left: 40px;
+}
+
+.lancamentotitulopagar{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 340px;
+    height: 35px;
+    background-color: #D0D0D7;
+    text-align: center;
+    border-radius: 5px;
+}
+.parcelamentotitulopagar {
+    position: absolute;
+    top: 410px;
+    left: 30px;
+    width: 340px;
+    height: 35px;
+    background-color: #D0D0D7;
+    text-align: center;
+    border-radius: 5px;
+}
+.clientetitulopagar {
+        position: absolute;
+        top: 560px;
+        left: 30px;
+        width: 340px;
+        height: 35px;
+        background-color: #D0D0D7;
+        text-align: center;
+        border-radius: 5px;
+}
+
+.clientetitulopagargeral {
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    width: 340px;
+    height: 35px;
+    background-color: #D0D0D7;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.inputspagarnumparcelas {
+    position: absolute;
+    top:460px;
+    left:140px;
+ 
+}
+
+.inputspagarnumparcelastexto {
+    position: absolute;
+    top:460px;
+    left:40px;
+ 
+}
+
+.inputspagarclientetextogeral {
+    position: absolute;
+    top:550px;
+    left:40px;
+ 
+}
+/*
+.inputspagarparcelasgerartexto {
+    position: absolute;
+    top:460px;
+    left:300px;
+}
+*/
+.numparcelas {
+    width:50px;
+}
+/*
+.checkboxpagar{
+    position:absolute;
+    left:65px;
+    top:7px
+}
+*/
+.inputspagarvalorparcela{
+    position: absolute;
+    top:500px;
+    left:140px;
+}
+
+.inputspagarvalorparcelatexto{
+    position: absolute;
+    top:500px;
+    left:40px;
+}
+.inputspagarclientetextoedit{
+    position: absolute;
+    top:620px;
+    left:40px;
+}
+
+.botaopagar{
+    position: absolute;
+    top:670px;
+    left:170px;
+}
+
+.botaopagargeral{
+    position: absolute;
+    top:600px;
+    left:170px;
+}
+
+.testefundoform{
+    background-color: #D0D0D7;
+}
+
+.testefundoform:focus{
+    background-color: #FFFFFF;
+}
+
+.pagargerenciarlancamentos {
+    position:absolute;
+    top: 800px;
+    left: 5%;
+    background: #eeeeeee0;
+    width: 2000px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.pagartitulogerenciar {
+    position: absolute;
+    width: 1600px;
+    left:0px;
+    text-align: center;
+    border-radius: 5px;
+    top: 5px;
+}
+
+.pagarfiltros{
+    position: absolute;
+    width: 1500px;
+    left:50px;
+    text-align: center;
+    border-radius: 5px;
+    top:50px
+}
+
+.pagarperiodo{
+    position: absolute;
+    top: 100px;
+    left:600px;
+}
+
+.pagarate{
+    position: absolute;
+    top: 100px;
+    left:850px;
+}
+
+.pagargerenciargrupos{
+    position: absolute;
+    top: 140px;
+    left:600px;
+}
+
+.pagargerenciarsubgrupos{
+    position: absolute;
+    top: 180px;
+    left:600px;
+}
+
+.grupogerenciar{
+    width:400px;
+    text-align: center;
+}
+
+.pagarstatus{
+    position: absolute;
+    top: 220px;
+    left:600px;
+}
+
+.novogrupo {
+    position: absolute;
+    background-color: #EEEEEE;
+    left:0px;
+    top:10px;
+    width: 500px;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.novosubgrupo {
+    position: absolute;
+    background-color: #EEEEEE;
+    left:530px;
+    top:10px;
+    width: 500px;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.novogrupotitulo {
+    position: absolute;
+    background-color: #D0D0D7;
+    left:0px;
+    width: 498px;
+    height: 40px;
+    text-align: center;
+}
+
+.novosubgrupotitulo {
+    position: absolute;
+    background-color: #D0D0D7;
+    left:0px;
+    width: 498px;
+    height: 40px;
+    text-align: center;
+}
+
+.criargrupoinput{
+    width:200px;
+}
+
+.inputnovogrupo{
+    position: absolute;
+    top:20%;
+    left:40%;
+}
+
+.nomegrupo{
+    position: absolute;
+    top:20%;
+    left:10%;
+}
+
+.botaonovogrupo{
+    position: absolute;
+    top:70%;
+    left:40%;
+}
+
+.inputnovosubgrupo{
+    position: absolute;
+    top:33%;
+    left:40%;
+}
+
+.nomesubgrupo{
+    position: absolute;
+    top:33%;
+    left:10%;
+}
+
+.botaonovosubgrupo{
+    position: absolute;
+    top:70%;
+    left:40%;
+}
+
+.novosubgrupoprincipal{
+    position: absolute;
+    top:20%;
+    left:10%;
+}
+
+.selectgrupoprincipal{
+    position: absolute;
+    top:20%;
+    left:40%;
+}
+
+.gruposcadastradostitulo{
+    position:relative;
+    top:30px;
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 5px;
+}
+
+.baixapagar{
+    position: absolute;
+    background-color: #EEEEEE;
+    left:10%;
+    top:5%;
+    width: 1200px;
+    height: 700px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.titulocontaspagar{
+    position: absolute;
+    text-align: center;
+    background-color: #D0D0D7;
+    left:30px;
+    top:30px;
+    width:1140px;
+    height:50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.botaobaixa{
+    position: absolute;
+    top: 70%;
+    left:48%;
+}
+
+.botaovoltar{
+    position: absolute;
+    top:93%;
+    left:1%;
+}
+
+.lancamentosbox{
+    position: absolute;
+    top:125px;
+    width:1600px;
+    height: 300px;
+}
+
+.tabelagerenciar{
+    position:relative;
+    top:50px;
+    width:1300px;
+}
+
+.tabelarecebergerenciar{
+    top: 100px;
+}
+
+.containerlancamentos{
+    position: absolute;
+    width:100vw;
+    height: 100vh;
+    background-color: #EEEEEE;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.titulolancamentos{
+    position:relative;
+    top:30px;
+    text-align: center;
+    height: 30px;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 5px;
+}
+
+.tabelalancamentos{
+    position: relative;
+    top:40px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.filtrodata{
+    position: relative;
+    top:40px;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+.grupos{
+    background-color:#E0E0E0;
+    font-size: 20px;
+    text-align: center;
+}
+.subgrupotitulo{
+    font-size: 5px;
+}
+.textofiltrar{
+    text-align: center;
+}
+.btncentro{
+    margin-left: 30%;
+    text-align: center;
+}
+.gerar{
+    margin-left: 0px;
+    margin-top: 5%;
+}
+
+.btnfiltro{
+    margin-top: 2.5%;
+}
+
+.bgprotex{
+    background-color: #082336;
+}
+.gerarpagar{
+
+    margin-top: 5%;
+}
+
+.botaoeditar{
+    margin-left: 2px;
+    margin-top:2px;
+}
+
+.botaoexcluir{
+    margin-left: 2px;
+    margin-top:2px;
+}
+
+.botaobaixas{
+    margin-left: 3%;
+    margin-top:2px;
+}
+
+.formpagar{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.titulolancamento{
+    position: relative;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.bemvindo{
+    position: relative;
+    text-align: center;
+}
+
+.tabelabaixas{
+    position: relative;
+    top:40px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.gruposcadastrados{
+    position: relative;
+    background-color: #EEEEEE;
+    margin-top:3%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 6px;
+}
+
+
+.grupocadastra{
+    position: relative;
+    margin-top:2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+
+}
+
+.botaoeditargrupo{
+    position: absolute;
+    left: 84%;
+    margin-right: 1%;
+    height: 30px;
+}
+
+.botaoexcluirgrupo{
+    position: absolute;
+    left: 91%;
+    margin-right: 1%;
+    height: 30px;
+
+}
+
+.grupos{
+    position: relative;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.subgrupost{
+    position: relative;
+    margin-top: 1%;
+    margin-bottom: 1%;
+   
+}
+.botaoeditgrupos{
+    margin-top: -30px;
+}
+.botaodeletegrupos{
+    margin-top: -30px;
+}
+
+.titulonovogrupo{
+    position: relative;
+    margin-top: 1%;
+    text-align: center;
+}
+.novogrupoform{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.editgrupoform{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.posicionabotao{
+    position: relative;
+    margin-left: 15px;
+}
+
+.pendente{
+    color: red;
+}
+
+.pago{
+    color: green;
+}
+
+.posicionabotaovoltar{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.botaohelp{
+    float:right;
+    margin-right: 1%;
+    margin-top:5px;
+}
+
+.botaohelpindex{
+    position: relative;
+    margin-right: 50%;
+    margin-left: 50%;
+}
+
+
+.btn-outline-login{
+    background-color: #308A9C;
+}
